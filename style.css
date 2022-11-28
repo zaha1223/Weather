@@ -1,0 +1,30 @@
+.location__weather1 {
+  padding: 15px;
+  width: 225px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px 5px #8a8d8e;
+  margin-top: 15px;
+  font-family: cursive;
+  background-color: #3dbad9;
+}
+.cityInput {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #19e4ae;
+  color: white;
+  font-family: monospace;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  background: #8e5fea;
+}
+.wrapper{
+    position: absolute;
+    top: 25%;
+    bottom: 75%;
+    right: 40%;
+}
