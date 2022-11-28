@@ -12,12 +12,12 @@ const options = {
 let elDiv = document.querySelector(".location__weather");
 
 let renderWeather = (data) => {
-  console.log(data);
   elDiv.innerHTML = `
   <h4><strong>Region</strong> ${data.location.region}</h4>
       <h5><strong>Country</strong> ${data.location.country}</h5>
       <p><strong>Weather</strong> ${data.current.condition.text}</p>
       <img src="${data.current.condition.icon}" alt="img" width="50" height="50" />
+	  <p>Wind ${data.current.wind_kph} km/h</p>
       <p> ${data.current.temp_c}C</p>
 	  <span><strong>Real time</strong> ${data.location.localtime}</span>`;
 };
